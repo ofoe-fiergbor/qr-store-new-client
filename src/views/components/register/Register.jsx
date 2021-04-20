@@ -9,8 +9,8 @@ import AuthButton from "../authButton/AuthButton";
 const Register = ({ onBackPress }) => {
   const [values, setValues] = React.useState({
     email: "",
-    phone: "",
-    fullName: "",
+    firstName: "",
+    lastName: "",
     password: "",
   });
 
@@ -28,20 +28,19 @@ const Register = ({ onBackPress }) => {
       <View style={styles.form}>
         <View style={styles.formInputContainer}>
           <TextInput
-            label="Full Name"
-            value={values.fullName}
+            label="First Name"
+            value={values.firstName}
             style={styles.formInput}
-            onChangeText={(text) => onChange("fullName", text)}
+            onChangeText={(text) => onChange("firstName", text)}
           />
         </View>
 
         <View style={styles.formInputContainer}>
           <TextInput
-            label="Phone Number"
-            value={values.phone}
+            label="Last Name"
+            value={values.lastName}
             style={styles.formInput}
-            keyboardType="phone-pad"
-            onChangeText={(text) => onChange("phoneNumber", text)}
+            onChangeText={(text) => onChange("lastName", text)}
           />
         </View>
 

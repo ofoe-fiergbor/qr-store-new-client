@@ -8,6 +8,8 @@ import AuthHeader from "../../components/authHeader/AuthHeader";
 import useMigration from './../../../hooks/useMigration';
 
 const Auth = ({ navigation }) => {
+
+  //CUSTOM HOOK FOR NAVIGATION BETWEEN LOGIN & REGISTER SHEETS
   [swap, onBackPress, stages, localStage] = useMigration()
   
   return (
@@ -15,8 +17,8 @@ const Auth = ({ navigation }) => {
 
     <View style={styles.container}>
       <AuthHeader migrate={swap} onBackPress={onBackPress} localStage={localStage}/>
-      {stages[localStage] === "LOGIN" && <Login />}
-      {stages[localStage] === "REGISTER" && <Register onBackPress={onBackPress}/>}
+      {stages[localStage] === "LOGIN" && <Login navigation={navigation}/>}
+      {stages[localStage] === "REGISTER" && <Register navigation={navigation} onBackPress={onBackPress}/>}
     </View>
     </ScrollView >
   );

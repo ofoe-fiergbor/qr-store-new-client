@@ -5,12 +5,15 @@ const useMigration = () => {
 
   const stages = ["LOGIN", "REGISTER"];
 
+
+  //FUNCTION TO MOVING BACK TO LOGIN SCREEN
   const onBackPress = () => {
     if (localStage > 0) setLocalStage(localStage - 1);
 
     return true;
   };
 
+  //FOR MOVING FORWARD
   const swap = (delta) => {
     if (localStage + 1 < stages.length) {
       const _stage = localStage + delta;

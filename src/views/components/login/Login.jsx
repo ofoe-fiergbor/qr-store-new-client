@@ -2,11 +2,13 @@ import React from "react";
 import { View } from "react-native";
 import { TextInput, Title } from "react-native-paper";
 
+
+//RELATIVE IMPORT
 import styles from "./styes";
 import LargeText from "../largeText/LargeText";
 import AuthButton from "../authButton/AuthButton";
 
-const Login = () => {
+const Login = ({navigation}) => {
   const [values, setValues] = React.useState({
     email: "",
     password: "",
@@ -15,8 +17,10 @@ const Login = () => {
   const onChange = (name, value) => {
     setValues({ ...values, [name]: value });
   };
+
   const submit = () => {
-    console.log(values);
+    // console.log(values);
+    navigation.navigate("Home")
   };
 
   return (
