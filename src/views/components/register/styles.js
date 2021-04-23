@@ -14,8 +14,7 @@ const styles = StyleSheet.create({
         marginBottom: dimensions.margin.xxl
     },
     formInput:{
-        borderTopEndRadius: dimensions.radius.sm,
-        borderTopLeftRadius: dimensions.radius.sm
+        height: dimensions.inputHeight
     },
     footerContainer:{
         flexDirection:'row',

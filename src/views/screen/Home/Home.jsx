@@ -25,7 +25,7 @@ const Home = ({ navigation }) => {
         <Button
           icon="qrcode-scan"
           mode="contained"
-          onPress={() => alert('qr camera')}
+          onPress={() => navigation.navigate('Scanner')}
         >
           scan qr
         </Button>
