@@ -30,7 +30,7 @@ const AuthHeader = ({ localStage, onBackPress, migrate }) => {
           </View>
         </TouchableWithoutFeedback>
       </View>
-      <Avatar.Icon size={50} icon="folder" />
+      <Avatar.Icon size={50} icon="store" />
     </View>
   );
 };

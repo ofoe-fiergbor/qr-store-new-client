@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6529c05b-9132-4a3e-bde8-9478fa5a5089" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/constants/dimensions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/dimensions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/navigation/StackNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/StackNavigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/formatData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/formatData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/components/header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/components/menuItem/MenuItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/components/menuItem/MenuItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/components/menuItem/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/components/menuItem/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/screen/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/screen/Home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/screen/Home/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/screen/Home/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/screen/Menu/Menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/screen/Menu/Menu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/screen/Menu/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/screen/Menu/styles.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1raPIIAO4ycVdhOorEkQXFoDtdT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6529c05b-9132-4a3e-bde8-9478fa5a5089" name="Default Changelist" comment="" />
+      <created>1619211145514</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619211145514</updated>
+    </task>
+    <servers />
+  </component>
+</project>

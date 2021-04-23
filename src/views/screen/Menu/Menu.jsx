@@ -1,10 +1,11 @@
 import React from "react";
-import { View, BackHandler, FlatList } from "react-native";
+import { View, FlatList } from "react-native";
 import { formatData } from "../../../utils/formatData";
 import MenuItem from "../../components/menuItem/MenuItem";
 import styles from "./styles";
 import LargeText from "./../../components/largeText/LargeText";
 import { Button } from "react-native-paper";
+import MenuHeader from "../../components/menuHeader/MenuHeader";
 
 const Menu = ({ navigation }) => {
   const data = [
@@ -22,16 +23,15 @@ const Menu = ({ navigation }) => {
 
   const numColumns = 2;
 
+
   return (
     <View style={styles.container}>
       <FlatList
-        style={styles.flatlistContainer}
         contentContainerStyle={styles.contentContainerStyle}
-        ListHeaderComponent={() => (
-          <LargeText textStyle={styles.headerText} text="Blue Moon" />
-        )}
+        ListHeaderComponent={() => <MenuHeader />}
         data={formatData(data, numColumns)}
         numColumns={numColumns}
+        contentContainerStyle={styles.contentContainerStyle}
         renderItem={({ item }) => <MenuItem item={item} />}
         ListFooterComponent={() => (
           <Button

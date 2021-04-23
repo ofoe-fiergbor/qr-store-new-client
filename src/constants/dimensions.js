@@ -53,19 +53,20 @@ const dimensions = {
     noPercentMatchParent: 100,
     matchParent: '100%',
     halfParent: '50%',
+    fortyPercentParent: '40%',
     sixtyPercentParent: '60%',
     iconSize: 22,
     lineHeight: 20,
     detailsRiderCardHeight: 120,
     contactListProfileIconsize: 60,
     shadow: {
-        shadowColor: '#999',
+        shadowColor: '#000',
         shadowOffset: {
-            width: 5, 
-            height: 5
+            width: 0, 
+            height: 10
         },
-        shadowOpacity: 0.27,
-        elevation: 10
+        shadowOpacity: 0.5,
+        elevation: 20
     },
     bottomSheetHeading: {
         textTransform: 'capitalize',

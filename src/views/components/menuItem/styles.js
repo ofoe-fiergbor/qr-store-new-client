@@ -6,15 +6,24 @@ const { width, height } = Dimensions.get("screen");
 
 const styles = StyleSheet.create({
   container: {
-    width: width / 2.7,
-    marginHorizontal: dimensions.margin.md + 2,
-    marginVertical: dimensions.margin.md + 2,
-    height: 180,
+    ...dimensions.shadow
+  },
+  itemContainer: {
+    height: 200,
+    width: width / 2,
+    marginBottom: dimensions.margin.md,
+    paddingHorizontal: dimensions.padding.md,
   },
   image: {
-    width: "100%",
-    height: 130,
+    height: 140,
   },
+  cardContent: {
+    height: 50,
+  },
+  selectedFilter:{
+    backgroundColor: colors.secondaryLight,
+    // height: 50,
+  }
 });
 
 export default styles;

@@ -6,12 +6,18 @@ import { MaterialCommunityIcons } from "@expo/vector-icons";
 //RELATIVE IMPORTS
 import styles from "./styles";
 import Header from "../../components/header/Header";
+import LargeText from "./../../components/largeText/LargeText";
 
 const Home = ({ navigation }) => {
   return (
     <View>
       {/* PAGE HEADER */}
-      <Header />
+      <Header navigation={navigation} />
+
+      <View style={styles.container}>
+        <Title style={styles.welcome}>Welcome</Title>
+        <Title style={styles.name}>Xavier Dlake</Title>
+      </View>
 
       {/* MAIN PAGE COMPONENTS */}
       <View style={styles.innerContainer}>
@@ -25,7 +31,7 @@ const Home = ({ navigation }) => {
         <Button
           icon="qrcode-scan"
           mode="contained"
-          onPress={() => navigation.navigate('Scanner')}
+          onPress={() => navigation.navigate("Scanner")}
         >
           scan qr
         </Button>

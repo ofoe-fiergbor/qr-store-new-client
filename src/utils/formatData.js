@@ -1,3 +1,5 @@
+import { Linking } from "react-native";
+
 export const formatData = (data, numColumns) => {
   const numberOfFullRows = Math.floor(data.length / numColumns);
 
@@ -11,4 +13,10 @@ export const formatData = (data, numColumns) => {
   }
 
   return data;
+};
+
+export const makeCall = (phoneNumber) => {
+
+  Linking.openURL(`tel:${phoneNumber}`)
+
 };

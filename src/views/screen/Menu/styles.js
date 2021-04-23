@@ -10,25 +10,20 @@ const styles = StyleSheet.create({
     alignItems: "center",
     alignItems: "center",
   },
-  headerText: {
-    textAlign: "center",
-    fontWeight: "bold",
-    fontSize: dimensions.font.md + 2,
-    marginBottom: dimensions.margin.lg,
-  },
+
   flatlistContainer: {
     width: width,
-    //   backgroundColor:'red'
   },
   contentContainerStyle: {
-    justifyContent: "center",
+    width: width,
+    marginTop: dimensions.margin.md,
   },
   button: {
-      height: 50,
-      width: width / 2,
-      alignSelf: "center",
-      alignItems: "center",
-      justifyContent: "center",
+    height: 50,
+    width: width / 2,
+    alignSelf: "center",
+    alignItems: "center",
+    justifyContent: "center",
     marginVertical: dimensions.margin.md,
   },
 });
